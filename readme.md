@@ -10,4 +10,12 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Firstly, we have to have docker in our pc as most of the work depends on it (Assuming that you've install git in your pc at first place, else install git as well).
+
+2. After the docker is been installed, run the command "docker -v" to check the version of the docker, if its installed, it will be show us the latest version of it.
+
+3. Clone the following repository using the command "git clone 'repository-name' " into your pc.
+
+4. After you've cloned the repository, go to the main branch of the file of the repository and run "docker compose up" so that the frontend and backend part should start running to it. You can also check it by pinging it to your localhost.
+
+5. After following these steps, you would be able to run the folllowing repository succesfully.
